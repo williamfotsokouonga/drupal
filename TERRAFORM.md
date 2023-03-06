@@ -24,3 +24,6 @@ terraform -version
 - `Terraform CLI installed`
 - `AWS CLI Installed` > https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 - `AWS Account`
+## Create ACCESS KEY SECRET ACCESS KEY on AWS IAM
+ - `IAM > Users > JohnDoe > Security Credentials > Create Access Key`
+
