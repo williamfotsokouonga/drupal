@@ -18,3 +18,8 @@ ls -l /usr/local/bin
 terraform -version
  - `Terraform v1.3.9
     on darwin_amd64`
+
+# Connect Terraform on AWS Account.
+## PRE-REQUIS
+- `Terraform CLI installed`
+- ` AWS CLI Installed`
