@@ -4,12 +4,12 @@
 curl https://releases.hashicorp.com/terraform/1.3.5/terraform_1.3.5_darwin_arm64.zip
 
 
-2 - Find PATH /n
+2 - Find PATH
 echo $PATH
  > "/usr/local/bin"
  
  
-3 - Unzip file in directory
+3 - Unzip file in directory /n
 sudo unzip terraform_1.3.5_darwin_arm64.zip -d /usr/local/bin
 
 
