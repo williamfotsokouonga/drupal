@@ -9,7 +9,7 @@ echo $PATH
  > "/usr/local/bin"
  
  
-## 3 - Unzip file in directory /n
+## 3 - Unzip file in directory
 sudo unzip terraform_1.3.5_darwin_arm64.zip -d /usr/local/bin
 
 
