@@ -109,3 +109,17 @@ aws_instance.app_server: Still creating... [30s elapsed]
 aws_instance.app_server: Creation complete after 32s [id=i-0f6b53f08f0a349ba]
 
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+## Terraform Destroy 
+- `terraform destroy`
+
+Terraform will perform the following actions:
+#### aws_instance.app_server will be destroyed
+Plan: 0 to add, 0 to change, 1 to destroy.
+aws_instance.app_server: Destroying... [id=i-0f6b53f08f0a349ba]
+aws_instance.app_server: Still destroying... [id=i-0f6b53f08f0a349ba, 10s elapsed]
+aws_instance.app_server: Still destroying... [id=i-0f6b53f08f0a349ba, 20s elapsed]
+aws_instance.app_server: Still destroying... [id=i-0f6b53f08f0a349ba, 30s elapsed]
+aws_instance.app_server: Destruction complete after 40s
+
+Destroy complete! Resources: 1 destroyed.
