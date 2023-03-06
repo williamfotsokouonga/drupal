@@ -26,4 +26,5 @@ terraform -version
 - `AWS Account`
 ## Create ACCESS KEY SECRET ACCESS KEY on AWS IAM
  - `IAM > Users > JohnDoe > Security Credentials > Create Access Key`
+![image](https://user-images.githubusercontent.com/3710109/223247770-7b98cca4-dc13-4860-beab-e372c891db94.png)
 
