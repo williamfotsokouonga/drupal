@@ -4,7 +4,7 @@
 curl https://releases.hashicorp.com/terraform/1.3.5/terraform_1.3.5_darwin_arm64.zip
 
 
-2 - Find PATH
+2 - Find PATH /n
 echo $PATH
  > "/usr/local/bin"
  
