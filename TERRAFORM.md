@@ -123,3 +123,11 @@ aws_instance.app_server: Still destroying... [id=i-0f6b53f08f0a349ba, 30s elapse
 aws_instance.app_server: Destruction complete after 40s
 
 Destroy complete! Resources: 1 destroyed.
+
+## Terraform Help
+- `terraform -h`
+- `init          Prepare your working directory for other commands`
+- `validate      Check whether the configuration is valid`
+- `plan          Show changes required by the current configuration`
+- `apply         Create or update infrastructure`
+- `destroy       Destroy previously-created infrastructure`
