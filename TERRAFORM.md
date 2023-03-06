@@ -126,6 +126,8 @@ Destroy complete! Resources: 1 destroyed.
 
 ## Terraform Help
 - `terraform -h`
+
+
 - `init          Prepare your working directory for other commands`
 - `validate      Check whether the configuration is valid`
 - `plan          Show changes required by the current configuration`
