@@ -6,7 +6,7 @@ curl https://releases.hashicorp.com/terraform/1.3.5/terraform_1.3.5_darwin_arm64
 
 ### 2 - Find PATH
 echo $PATH
- > "/usr/local/bin"
+- `/usr/local/bin`
  
  
 ### 3 - Unzip file in directory
