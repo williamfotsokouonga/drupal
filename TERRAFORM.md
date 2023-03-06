@@ -37,8 +37,32 @@ Run command
 - `AWS Secret Access Key: XXXXX`
 - `Default region name []: eu-west-3`
 
-## main file Terraform
+## Main file Terraform
 - `main.tf`
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region  = "eu-west-3"
+}
+
+resource "aws_instance" "app_server" {
+  ami           = "ami-0ca5ef73451e16dc1"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}
 
 ## Init Terraform
 In the directory of file "main.tf"
@@ -64,3 +88,24 @@ Terraform has been successfully initialized!
 
 Terraform will perform the following actions:
 Plan: 1 to add, 0 to change, 0 to destroy.
+
+## Terraform Apply 
+- `terraform apply`
+
+Terraform will perform the following actions:
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_instance.app_server: Creating...
+aws_instance.app_server: Still creating... [10s elapsed]
+aws_instance.app_server: Still creating... [20s elapsed]
+aws_instance.app_server: Still creating... [30s elapsed]
+aws_instance.app_server: Creation complete after 32s [id=i-0f6b53f08f0a349ba]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
