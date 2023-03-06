@@ -32,7 +32,35 @@ terraform -version
 
 ## AWS CLI Configure
 Run command
-- `aws configure`
+- `aws configure- `
 - `AWS Access Key ID: XXXXX`
 - `AWS Secret Access Key: XXXXX`
 - `Default region name []: eu-west-3`
+
+## main file Terraform
+- `main.tf`
+
+## Init Terraform
+In the directory of file "main.tf"
+
+- `terraform init`
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Finding hashicorp/aws versions matching "~> 4.16"...
+- Installing hashicorp/aws v4.57.0...
+- Installed hashicorp/aws v4.57.0 (signed by HashiCorp)
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.
+
+Terraform has been successfully initialized!
+
+## Terraform Plan 
+- `terraform plan`
+
+Terraform will perform the following actions:
+Plan: 1 to add, 0 to change, 0 to destroy.
