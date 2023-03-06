@@ -22,4 +22,5 @@ terraform -version
 # Connect Terraform on AWS Account.
 ## PRE-REQUIS
 - `Terraform CLI installed`
-- ` AWS CLI Installed`
+- `AWS CLI Installed` > https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+- `AWS Account`
