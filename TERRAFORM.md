@@ -20,7 +20,7 @@ terraform -version
     on darwin_amd64`
 
 # Connect Terraform on AWS Account.
-## PRE-REQUIS
+## Pre-requis
 - `Terraform CLI installed`
 - `AWS CLI Installed` > https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 - `AWS Account`
