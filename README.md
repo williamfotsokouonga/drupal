@@ -1,5 +1,14 @@
 # DRUPAL
+
 ## Drupal Project on AWS
+
+- `VPC`
+- `SUBNET PUBLIC`
+- `SUBNET PRIVATE`
+- `ROUTETABLE`
+- `INTERNETGATEWAY`
+- `SECURITYGROUP`
+- `NETWORKACL`
 - `EC2`
 - `RDS`
 - `ElasticIP`

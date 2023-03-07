@@ -14,3 +14,11 @@ provider "aws" {
   profile = "default"
   region  = "eu-west-3"
 }
+
+variable "engine" {}
+variable "engine_version" {}
+variable "instance_class" {}
+variable "name" {}
+variable "username" {}
+variable "password" {}
+variable "parameter_group_name" {}
