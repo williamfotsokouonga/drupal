@@ -7,7 +7,7 @@ terraform {
   }
 
   required_version = ">= 1.3.9"
-  
+
 }
 
 provider "aws" {
@@ -20,6 +20,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "SimplyAccountingServices"
   }
 }
