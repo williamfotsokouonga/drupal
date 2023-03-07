@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.57.0"
+      version = "4.50.0"
     }
   }
 
@@ -13,13 +13,4 @@ terraform {
 provider "aws" {
   profile = "default"
   region  = "eu-west-3"
-}
-
-resource "aws_instance" "app_server" {
-  ami           = "ami-0ca5ef73451e16dc1"
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "SimplyAccountingServices"
-  }
 }

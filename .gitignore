@@ -1,2 +1,3 @@
 TERRAFORM/.terraform/
 TERRAFORM/.terraform.lock.hcl
+TERRAFORM/.terraform.tfstate.lock.info
